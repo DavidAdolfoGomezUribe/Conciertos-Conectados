@@ -1,0 +1,10 @@
+:root{
+
+    --color-1: rgb(0,0,0);
+
+}
+
+@font-face {
+    font-family: "example.ttf";
+    src: url( ../storage/fonts/font.ttf);
+}
