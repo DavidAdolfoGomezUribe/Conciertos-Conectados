@@ -2,7 +2,7 @@
 
 *{margin: 0; padding: 0; 
 
-    outline: 1px solid tomato;
+  /*  outline: 1px solid tomato;*/
 
 }
 *::before, *::after{box-sizing: border-box;}
@@ -34,7 +34,7 @@ transition: none;
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
  
     .header{
         display: flex;
@@ -158,7 +158,7 @@ transition: none;
         width: 88.71vw;
         height: 126.92vw;
         gap: 10.256vw;
-   }
+  
 
     section:nth-child(1){
         display: flex;
@@ -305,37 +305,94 @@ transition: none;
     }
     
     section:nth-child(2){
-        
+        padding-bottom: 4.5vw;
         height:60.521vw ;
         width: 100%;
-
+        gap: 4.10vw;
         display: flex;
         flex-direction: column;
 
         article:nth-child(1){
             display: flex;
             flex-direction: row;
-            background-color: red;
+            
+            justify-content: space-between;
+            height:4.358vw ;
+            h2{
+                font-size: 3.58vw;
+            }
+            p{
+                font-size: 3.07vw;
+            }
         }
-
+        
+        
         article:nth-child(2){
             display: flex;
             flex-direction: row;
-            background-color: blue;
+            justify-content: space-between;
+            
+            
+            >div{
+                border-radius: 2.05vw;
+                box-shadow: 
+                rgba(17, 17, 26, 0.1) 0px 1px 8px,
+                rgba(17, 17, 26, 0.1) 0px 1px 8px;
+                display: flex;
+                flex-direction: column;
+                
+                width:40.51w ;
+                height: 52.05vw;
+                padding: 2.05vw 2.05vw 0 2.05vw;
+                gap: 2.3vw;
+                
+                >img{
+                    width: 38.38vw;
+                    height: 26.15vw;
+                }
+                
+                >p{
+                    font-size: 2.56vw;
+                }
+
+                >div:nth-child(3){
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.53vw;
+                    
+                    
+                    >div{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 2.05vw;
+                        align-items: center;
+                        p{
+                            font-size: 2.56vw;
+                        }
+
+                    }
+                }
+                
+                >div:nth-child(4){
+                 
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 1.02vw;
+
+                    p{
+                        font-size: 3.07vw;
+                        color: red;
+                    }
+                }
+
+               
+
+            }
         }
     }
 
-    
-
-
-
-
-
-
-
-
-
-
+    }  
 
 
 }
