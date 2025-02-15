@@ -100,9 +100,10 @@ transition: none;
                     textarea{
                         width: 50vw;
                         border: none;
+                        height: 5vw ;
 
                     }
-                   
+
                 }
                 img:nth-child(2){
                     height: 4.35vw;
@@ -149,13 +150,14 @@ transition: none;
 
    .maincontainer{
         position: absolute;
-        display: flex;:construction:
+        display: flex;
         flex-direction: column;
         position: absolute;
         left: 5.128vw;
         top: 80.512vw;
         width: 88.71vw;
         height: 126.92vw;
+        gap: 10.256vw;
    }
 
     section:nth-child(1){
@@ -177,15 +179,156 @@ transition: none;
         }
    
         article:nth-child(2){
-            width: ;
+        
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 0;
+            overflow-x: scroll;
+            width: 88.71vw ;
+            height: 47.69vw;
+            object-fit: contain;
+            gap: 8vw;
+            background: transparent;
+            
+            div{    /*div over img*/
+                overflow-x: scroll;
+                flex-shrink: 0;
+                width: 88.71vw ;
+                height: 47.69vw;
+                display: flex;
+                justify-content: center;
+
+            div{    /*backdropfilter*/
+                    border-radius: 2.56vw;
+                    color: white;
+                    width:85.128vw ;
+                    height: 23.07vw;
+                    backdrop-filter: blur(8px);
+                    background-color: transparent;
+                    position: relative;
+                    top: 22.564vw;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 5.128vw;
+                    align-items: center;
+                    justify-content: center;
+
+                    
+                    >div:nth-child(1){  /* left content */
+                        backdrop-filter: none;
+                        background-color: transparent;
+                        width: 47.179vw;
+                        height: 14.615vw;
+                        position: relative;
+                        top: 0vw;
+                        display: flex;
+                        flex-direction: column;
+                        border-radius:0 ;
+                        gap: 1.53vw;
+                        color: white;                        
+                        h2{
+                            font-size: 2.95vw;
+                            height: 3.846vw;
+                            width: 47.179vw;
+                        }   
+
+                        div{
+                            background-color: transparent;
+                            height: 3.846vw;
+                            width: 47.179vw;
+                            border-radius: 0;
+                            position: relative;
+                            top: 0;
+                            gap: 2.05vw;
+
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            img{
+                                height: 3.846vw;
+                            }
+                            p{
+                                font-size: 2.95vw;
+                            }
+                        }
+                        
+
+                    }
+
+                    
+                    div:nth-child(2){  /* right content */
+                        width: 26.153vw;
+                        height: 8.974vw;
+                        position: relative;
+                        top: 0vw;
+                        border-radius:0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        color: white;
+                        gap: 1.02vw;
+
+                        p{
+                            font-size: 2.56vw;
+                        }
+                        
+                        h2{
+                            font-size: 4.10vw;
+                        }
+
+                    }
+                
+                }
+            }
+            
+            div:nth-child(1){
+                background-image: url(../storage/img/coldplayCoverPhoto.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                div{
+                    background-image: none;
+                }
+
+            }
+
+            div:nth-child(2){
+                background-image: url(../storage/img/museCoverPhoto.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                div{
+                    background-image: none;
+                }
+            }
 
         }
 
-
-
-
     }
     
+    section:nth-child(2){
+        
+        height:60.521vw ;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        article:nth-child(1){
+            display: flex;
+            flex-direction: row;
+            background-color: red;
+        }
+
+        article:nth-child(2){
+            display: flex;
+            flex-direction: row;
+            background-color: blue;
+        }
+    }
+
+    
+
+
+
 
 
 
