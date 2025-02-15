@@ -73,6 +73,7 @@ transition: none;
             display: flex;
             flex-direction: column;
             gap: 4.10vw;
+            overflow-y: hidden;
 
             div:nth-child(1){
                 display: flex;
@@ -164,11 +165,13 @@ transition: none;
         display: flex;
         flex-direction: column;
         gap: 4.10vw;
+        
 
         article:nth-child(1){
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            
 
             h2{
                 font-size: 3.589vw;
@@ -184,6 +187,7 @@ transition: none;
             flex-direction: row;
             flex-shrink: 0;
             overflow-x: scroll;
+            overflow-y: hidden;
             width: 88.71vw ;
             height: 47.69vw;
             object-fit: contain;
@@ -191,7 +195,8 @@ transition: none;
             background: transparent;
             
             div{    /*div over img*/
-                overflow-x: scroll;
+                
+                
                 flex-shrink: 0;
                 width: 88.71vw ;
                 height: 47.69vw;
@@ -199,6 +204,7 @@ transition: none;
                 justify-content: center;
 
             div{    /*backdropfilter*/
+                    overflow-x: hidden;
                     border-radius: 2.56vw;
                     color: white;
                     width:85.128vw ;
@@ -215,6 +221,7 @@ transition: none;
 
                     
                     >div:nth-child(1){  /* left content */
+                        
                         backdrop-filter: none;
                         background-color: transparent;
                         width: 47.179vw;
@@ -225,14 +232,17 @@ transition: none;
                         flex-direction: column;
                         border-radius:0 ;
                         gap: 1.53vw;
-                        color: white;                        
+                        color: white;      
+                        overflow: hidden;                  
                         h2{
                             font-size: 2.95vw;
                             height: 3.846vw;
                             width: 47.179vw;
+                            
                         }   
 
                         div{
+                            
                             background-color: transparent;
                             height: 3.846vw;
                             width: 47.179vw;
@@ -240,7 +250,7 @@ transition: none;
                             position: relative;
                             top: 0;
                             gap: 2.05vw;
-
+                            overflow: hidden;                  
                             display: flex;
                             flex-direction: row;
                             justify-content: flex-start;
@@ -267,6 +277,7 @@ transition: none;
                         align-items: flex-start;
                         color: white;
                         gap: 1.02vw;
+                        overflow: hidden;                  
 
                         p{
                             font-size: 2.56vw;
