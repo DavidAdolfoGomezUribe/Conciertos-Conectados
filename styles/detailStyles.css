@@ -179,8 +179,28 @@ transition: none;
 			left:5.64vw ;
 			width: 88.717vw;
 			height: 61.794vw;
+			padding-bottom: 16vw;
+			
+			article{
+				display: flex;
+				flex-direction: column;
+				gap: 3.07vw;
+				
+				h2{
+					font-family: "Inter_18pt-Medium.ttf";
+					font-size: 3.58vw;
+				}
 
-	    }	
+				iframe{
+					
+					width: 88.717vw;
+					height: 54.358vw;
+					border: none;
+					border-radius: 2.5vw;
+				}
+
+			}
+		}	
 	
 	}	
 
@@ -191,6 +211,40 @@ transition: none;
 	bottom: 0;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap:34.358vw ;
+	width:100vw ;
+	height: 16.923vw;
+	background-color: white;
+
+	
+	div{
+	/*	padding-top: 4.10vw;
+		padding-left: 5.64vw; */
+		p{
+			font-family: "DMSans_18pt-Regular.ttf";
+			font-size: 2.56vw;
+		}
+
+		h2{
+			font-family: "Inter_18pt-SemiBold.ttf";
+			font-size: 4.10vw;
+		}
+
+	}
+
+	a{
+		background-color: rgba(118, 28, 188, 1);
+		border: none;
+		border-radius: 5vw;
+		padding: 2.5vw 3vw;
+		color: white;
+		font-size: 4.10vw;
+		font-family: "Inter_18pt-SemiBold.ttf";
+		cursor: pointer;
+	}
+		
 	
 }
 
