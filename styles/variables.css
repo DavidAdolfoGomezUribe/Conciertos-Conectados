@@ -13,3 +13,18 @@
     font-family: "Inter_18pt-Regular.ttf";
     src: url( ../storage/fonts/Inter_18pt-Regular.ttf);
 }
+
+@font-face {
+    font-family: "Inter_18pt-Medium.ttf";
+    src: url( ../storage/fonts/Inter_18pt-Medium.ttf);
+}
+
+@font-face {
+    font-family: "DMSans_18pt-Regular.ttf";
+    src: url( ../storage/fonts/DMSans_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DMSans_18pt-Medium.ttf";
+    src: url( ../storage/fonts/DMSans_18pt-Medium.ttf);
+}
