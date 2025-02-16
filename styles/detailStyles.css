@@ -1,0 +1,260 @@
+@import url(variables.css);
+
+*{margin: 0; padding: 0; 
+
+/*  outline: 1px solid tomato;*/
+
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+.bg{
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	width: 100vw;
+	height: 81.02vw;
+	img{
+		width: 100vw;
+		height: 81.02vw;
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+	.headercontainer{
+		position: absolute;
+		left:5.64vw;
+		top: 8.974vw;
+		a{
+
+			img{
+				width: 8.717vw;
+				height: 8.717vw;
+			}
+		}
+	}
+
+
+	.maincontainer{
+
+
+		section:nth-child(1){
+			position: absolute;
+			top: 63.07vw;
+			left:5.64vw ;
+			width: 88.717vw;
+			height: 35.89vw;
+			border-radius: 3.589vw;
+			box-shadow: 
+			rgba(17, 17, 26, 0.1) 0px 1px 8px,
+			rgba(17, 17, 26, 0.1) 0px 1px 8px;
+			background-color:white;
+			display: flex;
+			flex-direction: column;
+			gap: 4.10vw;
+
+
+
+			article:nth-child(1){
+				display: flex;
+				flex-direction: column;
+				width: 57.43vw;
+				height: 15.12vw;
+				margin-left: 5.128vw;
+				margin-top:  4.743vw;
+				gap: 4.10vw;
+				
+				>div:nth-child(1){
+					gap: 1.53vw;
+					display: flex;
+					flex-direction: column;
+					h2{
+						font-family: "Inter_18pt-SemiBold.ttf";
+						font-size: 3.58vw;
+
+						span{
+							color:rgba(118, 28, 188, 1)
+						}
+					}
+					div{
+						height: 3.84vw;
+						width: auto;
+						display: flex;
+						flex-direction: row;
+						font-family: "Inter_18pt-Regular.ttf";
+						font-size: 3.07vw;
+						align-items: center;
+						gap: 2.05vw;
+
+						img{
+							height: 100%;
+							
+						}
+					}
+				}
+
+				>div:nth-child(2){
+					
+					width: 43.84vw;
+					height:7.17vw ;
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					align-items: center;
+					
+					img{
+						height: 100%;
+					}
+					p{
+						font-family: "Inter_18pt-Medium.ttf";
+						font-size: 3.07vw;
+					}
+
+					}
+
+
+				
+			}
+
+			
+		}
+
+		section:nth-child(2){
+			position: absolute;
+			top: 106.15vw;
+			left:5.64vw ;
+			width: 88.717vw;
+			height: 34.102vw;
+			
+			article{
+
+				display: flex;
+				flex-direction: column;
+				gap: 2.05vw;
+				
+				
+				h2{
+					font-family: "Inter_18pt-Medium.ttf";
+					font-size: 3.58vw;
+	
+				}
+	
+				p{
+					font-family: "DMSans_18pt-Regular.ttf";
+					font-size: 3.07vw;
+					color: rgba(112, 109, 109, 1);
+					span{
+						color: rgba(0, 146, 252, 1);
+						font-size: 3.07vw;
+						font-family: "DMSans_18pt-Medium.ttf";
+						cursor: pointer;
+					}
+	
+				}
+			}
+
+			
+
+
+		}
+
+		section:nth-child(3){
+			position: absolute;
+			top: 147.43vw;
+			left:5.64vw ;
+			width: 88.717vw;
+			height: 61.794vw;
+			padding-bottom: 16vw;
+			
+			article{
+				display: flex;
+				flex-direction: column;
+				gap: 3.07vw;
+				
+				h2{
+					font-family: "Inter_18pt-Medium.ttf";
+					font-size: 3.58vw;
+				}
+
+				iframe{
+					
+					width: 88.717vw;
+					height: 54.358vw;
+					border: none;
+					border-radius: 2.5vw;
+				}
+
+			}
+		}	
+	
+	}	
+
+
+
+.footercontainer{
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap:34.358vw ;
+	width:100vw ;
+	height: 16.923vw;
+	background-color: white;
+
+	
+	div{
+	/*	padding-top: 4.10vw;
+		padding-left: 5.64vw; */
+		p{
+			font-family: "DMSans_18pt-Regular.ttf";
+			font-size: 2.56vw;
+		}
+
+		h2{
+			font-family: "Inter_18pt-SemiBold.ttf";
+			font-size: 4.10vw;
+		}
+
+	}
+
+	a{
+		background-color: rgba(118, 28, 188, 1);
+		border: none;
+		border-radius: 5vw;
+		padding: 2.5vw 3vw;
+		color: white;
+		font-size: 4.10vw;
+		font-family: "Inter_18pt-SemiBold.ttf";
+		cursor: pointer;
+	}
+		
+	
+}
+
+
+
+
+
+
+
+
+
+
+}

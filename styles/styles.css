@@ -76,6 +76,7 @@ transition: none;
             flex-direction: column;
             gap: 4.10vw;
             overflow-y: hidden;
+            overflow-x: hidden;
 
             div:nth-child(1){
                 display: flex;
@@ -193,7 +194,7 @@ transition: none;
             }
         }
    
-        article:nth-child(2){
+        article:nth-child(2){           /* slider */
         
             display: flex;
             flex-direction: row;
@@ -206,14 +207,15 @@ transition: none;
             gap: 8vw;
             background: transparent;
             
-            div{    /*div over img*/
-                
+            a{    /*div over img*/
+                text-decoration: none;
                 
                 flex-shrink: 0;
                 width: 88.71vw ;
                 height: 47.69vw;
                 display: flex;
                 justify-content: center;
+               
 
             div{    /*backdropfilter*/
                     overflow-x: hidden;
@@ -308,7 +310,7 @@ transition: none;
                 }
             }
             
-            div:nth-child(1){
+            a:nth-child(1){
                 background-image: url(../storage/img/coldplayCoverPhoto.svg);
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -318,7 +320,7 @@ transition: none;
 
             }
 
-            div:nth-child(2){
+            a:nth-child(2){
                 background-image: url(../storage/img/museCoverPhoto.svg);
                 background-repeat: no-repeat;
                 background-size: cover;
