@@ -5,6 +5,11 @@
 }
 
 @font-face {
-    font-family: "example.ttf";
-    src: url( ../storage/fonts/font.ttf);
+    font-family: "Inter_18pt-SemiBold.ttf";
+    src: url( ../storage/fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Inter_18pt-Regular.ttf";
+    src: url( ../storage/fonts/Inter_18pt-Regular.ttf);
 }

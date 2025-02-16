@@ -63,6 +63,8 @@ transition: none;
         }
 
         h1{
+            color: black;
+            font-family: "Inter_18pt-SemiBold.ttf";
             font-size: 7.69vw;
             span{
                 color:rgba(118, 28, 188, 1) ;
@@ -90,6 +92,7 @@ transition: none;
                     display: flex;
                     flex-direction: row;
                     justify-content: start;
+                    align-items: center;
                     gap: 3.07vw;
                     width: 50.256vw;
                     height: 4.35vw;
@@ -102,6 +105,12 @@ transition: none;
                         width: 50vw;
                         border: none;
                         height: 5vw ;
+                        resize: none;
+                        color: black;
+                        font-size: 3.17vw;
+                        font-family: "Inter_18pt-Regular.ttf";
+                        
+                        
 
                     }
 
@@ -130,7 +139,8 @@ transition: none;
                     white-space: nowrap;
                     font-size: 3.07vw;
                     padding: 1.66vw 3.71vw 1.66vw 3.71vw ;
-                    border-radius: 1.5vw;
+                    border-radius:2.05vw;
+                    font-family: "Inter_18pt-Regular.ttf";
                 }
 
                 a:nth-child(1){
@@ -174,10 +184,12 @@ transition: none;
             
 
             h2{
+                font-family: "Inter_18pt-SemiBold.ttf";
                 font-size: 3.589vw;
             }
             p{
                 font-size: 3.07vw;
+                font-family: "Inter_18pt-Regular.ttf";
             }
         }
    
@@ -235,6 +247,7 @@ transition: none;
                         color: white;      
                         overflow: hidden;                  
                         h2{
+                            font-family: "Inter_18pt-SemiBold.ttf";
                             font-size: 2.95vw;
                             height: 3.846vw;
                             width: 47.179vw;
@@ -259,6 +272,7 @@ transition: none;
                             }
                             p{
                                 font-size: 2.95vw;
+                                font-family: "Inter_18pt-Regular.ttf";
                             }
                         }
                         
@@ -280,10 +294,12 @@ transition: none;
                         overflow: hidden;                  
 
                         p{
+                            font-family: "Inter_18pt-Regular.ttf";
                             font-size: 2.56vw;
                         }
                         
                         h2{
+                            font-family: "Inter_18pt-SemiBold.ttf";
                             font-size: 4.10vw;
                         }
 
@@ -330,10 +346,12 @@ transition: none;
             justify-content: space-between;
             height:4.358vw ;
             h2{
+                font-family: "Inter_18pt-SemiBold.ttf";
                 font-size: 3.58vw;
             }
             p{
                 font-size: 3.07vw;
+                font-family: "Inter_18pt-Regular.ttf";
             }
         }
         
@@ -363,6 +381,7 @@ transition: none;
                 }
                 
                 >p{
+                    font-family: "Inter_18pt-SemiBold.ttf";
                     font-size: 2.56vw;
                 }
 
@@ -379,6 +398,7 @@ transition: none;
                         align-items: center;
                         p{
                             font-size: 2.56vw;
+                            font-family: "Inter_18pt-Regular.ttf";
                         }
 
                     }
@@ -392,6 +412,7 @@ transition: none;
                     gap: 1.02vw;
 
                     p{
+                        font-family: "Inter_18pt-SemiBold.ttf";
                         font-size: 3.07vw;
                         color: red;
                     }
