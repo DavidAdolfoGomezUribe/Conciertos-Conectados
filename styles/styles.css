@@ -2,7 +2,7 @@
 
 *{margin: 0; padding: 0; 
 
-    outline: 1px solid tomato;
+  /*  outline: 1px solid tomato;*/
 
 }
 *::before, *::after{box-sizing: border-box;}
@@ -20,4 +20,413 @@ transition-duration: 0.01ms !important;
 scroll-behavior: auto !important;
 transition: none;
 }
+}
+
+.bg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    img{
+        
+        width: 100vw;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+ 
+    .header{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 5.128vw;
+        top: 11.025vw;
+        width: 88.71vw;
+        height: 59.23vw;
+        gap:5.12vw;
+
+        .navcontainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            a{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        h1{
+            color: black;
+            font-family: "Inter_18pt-SemiBold.ttf";
+            font-size: 7.69vw;
+            span{
+                color:rgba(118, 28, 188, 1) ;
+            }
+        }
+        
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 4.10vw;
+            overflow-y: hidden;
+            overflow-x: hidden;
+
+            div:nth-child(1){
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                width: 88.717vw ;
+                height: 10.512vw;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 1vw;
+                
+                >div:nth-child(1){
+                    
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 3.07vw;
+                    width: 50.256vw;
+                    height: 4.35vw;
+                    padding-left: 3.07vw;
+                    img{
+                        
+                        height: 100%;
+                    }
+                    textarea{
+                        width: 50vw;
+                        border: none;
+                        height: 5vw ;
+                        resize: none;
+                        color: black;
+                        font-size: 3.17vw;
+                        font-family: "Inter_18pt-Regular.ttf";
+                        
+                        
+
+                    }
+
+                }
+                img:nth-child(2){
+                    height: 4.35vw;
+                    padding-right: 3.07vw;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }                
+
+            }
+
+            div:nth-child(2){
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 7.17vw;
+                flex-shrink: 0;
+                overflow-x: scroll;  
+                gap: 3.07vw;
+                a{
+                    text-decoration: none;
+                    white-space: nowrap;
+                    font-size: 3.07vw;
+                    padding: 1.66vw 3.71vw 1.66vw 3.71vw ;
+                    border-radius:2.05vw;
+                    font-family: "Inter_18pt-Regular.ttf";
+                }
+
+                a:nth-child(1){
+                    background-color: rgba(237, 233, 255, 1);
+                }
+                a:nth-child(2){
+                    background-color: rgba(255, 245, 215, 1);
+                }
+                a:nth-child(3){
+                    background-color: rgba(255, 236, 236, 1);
+                }
+                a:nth-child(4){
+                    background-color: rgba(228, 255, 234, 1);
+                }
+            }
+        }
+    }
+
+   .maincontainer{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 5.128vw;
+        top: 80.512vw;
+        width: 88.71vw;
+        height: 126.92vw;
+        gap: 10.256vw;
+  
+
+    section:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        gap: 4.10vw;
+        
+
+        article:nth-child(1){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+
+            h2{
+                font-family: "Inter_18pt-SemiBold.ttf";
+                font-size: 3.589vw;
+            }
+            p{
+                font-size: 3.07vw;
+                font-family: "Inter_18pt-Regular.ttf";
+            }
+        }
+   
+        article:nth-child(2){           /* slider */
+        
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 0;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            width: 88.71vw ;
+            height: 47.69vw;
+            object-fit: contain;
+            gap: 8vw;
+            background: transparent;
+            
+            a{    /*div over img*/
+                text-decoration: none;
+                
+                flex-shrink: 0;
+                width: 88.71vw ;
+                height: 47.69vw;
+                display: flex;
+                justify-content: center;
+               
+
+            div{    /*backdropfilter*/
+                    overflow-x: hidden;
+                    border-radius: 2.56vw;
+                    color: white;
+                    width:85.128vw ;
+                    height: 23.07vw;
+                    backdrop-filter: blur(8px);
+                    background-color: transparent;
+                    position: relative;
+                    top: 22.564vw;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 5.128vw;
+                    align-items: center;
+                    justify-content: center;
+
+                    
+                    >div:nth-child(1){  /* left content */
+                        
+                        backdrop-filter: none;
+                        background-color: transparent;
+                        width: 47.179vw;
+                        height: 14.615vw;
+                        position: relative;
+                        top: 0vw;
+                        display: flex;
+                        flex-direction: column;
+                        border-radius:0 ;
+                        gap: 1.53vw;
+                        color: white;      
+                        overflow: hidden;                  
+                        h2{
+                            font-family: "Inter_18pt-SemiBold.ttf";
+                            font-size: 2.95vw;
+                            height: 3.846vw;
+                            width: 47.179vw;
+                            
+                        }   
+
+                        div{
+                            
+                            background-color: transparent;
+                            height: 3.846vw;
+                            width: 47.179vw;
+                            border-radius: 0;
+                            position: relative;
+                            top: 0;
+                            gap: 2.05vw;
+                            overflow: hidden;                  
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            img{
+                                height: 3.846vw;
+                            }
+                            p{
+                                font-size: 2.95vw;
+                                font-family: "Inter_18pt-Regular.ttf";
+                            }
+                        }
+                        
+
+                    }
+
+                    
+                    div:nth-child(2){  /* right content */
+                        width: 26.153vw;
+                        height: 8.974vw;
+                        position: relative;
+                        top: 0vw;
+                        border-radius:0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        color: white;
+                        gap: 1.02vw;
+                        overflow: hidden;                  
+
+                        p{
+                            font-family: "Inter_18pt-Regular.ttf";
+                            font-size: 2.56vw;
+                        }
+                        
+                        h2{
+                            font-family: "Inter_18pt-SemiBold.ttf";
+                            font-size: 4.10vw;
+                        }
+
+                    }
+                
+                }
+            }
+            
+            a:nth-child(1){
+                background-image: url(../storage/img/coldplayCoverPhoto.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                div{
+                    background-image: none;
+                }
+
+            }
+
+            a:nth-child(2){
+                background-image: url(../storage/img/museCoverPhoto.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                div{
+                    background-image: none;
+                }
+            }
+
+        }
+
+    }
+    
+    section:nth-child(2){
+        padding-bottom: 4.5vw;
+        height:60.521vw ;
+        width: 100%;
+        gap: 4.10vw;
+        display: flex;
+        flex-direction: column;
+
+        article:nth-child(1){
+            display: flex;
+            flex-direction: row;
+            
+            justify-content: space-between;
+            height:4.358vw ;
+            h2{
+                font-family: "Inter_18pt-SemiBold.ttf";
+                font-size: 3.58vw;
+            }
+            p{
+                font-size: 3.07vw;
+                font-family: "Inter_18pt-Regular.ttf";
+            }
+        }
+        
+        
+        article:nth-child(2){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            
+            >div{
+                border-radius: 2.05vw;
+                box-shadow: 
+                rgba(17, 17, 26, 0.1) 0px 1px 8px,
+                rgba(17, 17, 26, 0.1) 0px 1px 8px;
+                display: flex;
+                flex-direction: column;
+                
+                width:40.51w ;
+                height: 52.05vw;
+                padding: 2.05vw 2.05vw 0 2.05vw;
+                gap: 2.3vw;
+                
+                >img{
+                    width: 38.38vw;
+                    height: 26.15vw;
+                }
+                
+                >p{
+                    font-family: "Inter_18pt-SemiBold.ttf";
+                    font-size: 2.56vw;
+                }
+
+                >div:nth-child(3){
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.53vw;
+                    
+                    
+                    >div{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 2.05vw;
+                        align-items: center;
+                        p{
+                            font-size: 2.56vw;
+                            font-family: "Inter_18pt-Regular.ttf";
+                        }
+
+                    }
+                }
+                
+                >div:nth-child(4){
+                 
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 1.02vw;
+
+                    p{
+                        font-family: "Inter_18pt-SemiBold.ttf";
+                        font-size: 3.07vw;
+                        color: red;
+                    }
+                }
+
+               
+
+            }
+        }
+    }
+
+    }  
+
+
 }
