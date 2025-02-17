@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+            
+            if (isSafari) {
+                // Redirigir o mostrar mensaje de advertencia
+                document.body.innerHTML = "<h1>Este sitio no es compatible con Safari. Usa otro navegador.</h1>";
+            }
+        });
+    </script>
+
     <title>Event Mobile App</title>
 </head>
 <body class="bodycontainer">
